@@ -1,0 +1,7 @@
+version: "3.9"  
+services:
+  picf:
+    image: kotorik/cqpicfinder-docker
+    network_mode: host
+    volumes:
+     - ./config.jsonc:/apps/config.jsonc
